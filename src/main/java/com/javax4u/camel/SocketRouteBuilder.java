@@ -1,4 +1,4 @@
-package com.mastertheboss.camel;
+package com.javax4u.camel;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Message;

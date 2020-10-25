@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <name>A Camel Route Socket Publisher</name>
+    <name>A Camel Timer, Socket Publisher and Socket Consumer</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
