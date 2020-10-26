@@ -27,6 +27,17 @@ org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint: min
 	
 	Solution:add mina dependency in classpath
 
+### Server name and port numbers are hard coded in this project how can externalize it.
+	In next project you we will look into it.
+	
+### You have not configured connection pool for activemq to improve performance
+	In next project you we will look into it.
+	
+### How can i install it as service?
+	open cmd and goto release folder.
+	change path according to your computer
+	E:\camel-socket\release>InstallAsWindowsService.bat
+
 ### Flow Diagram
 [Online Editor Link used to genrate below diagram with mermaid](https://mermaid-js.github.io/mermaid-live-editor)
 ```
