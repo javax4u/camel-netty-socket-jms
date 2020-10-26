@@ -11,7 +11,7 @@ import org.apache.camel.builder.RouteBuilder;
  *
  * @author vdoxx
  */
-public class TimerRoute extends RouteBuilder {
+public class TimerToSocketRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() {

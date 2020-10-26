@@ -22,7 +22,7 @@ public class StartSocketServerNetty {
             CamelContext camelContext = new DefaultCamelContext(registry);
             camelContext.addComponent("jms",
                     JmsComponent.jmsComponentAutoAcknowledge(connectionFactory));
-            camelContext.addRoutes(new SocketRouteBuilder());
+            camelContext.addRoutes(new SocketToJMSRouteBuilder());
             camelContext.start();
         } catch (Exception ex) {
             Logger.getLogger(StartSocketServerNetty.class.getName()).log(Level.SEVERE, null, ex);

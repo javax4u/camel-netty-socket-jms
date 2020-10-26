@@ -1,0 +1,390 @@
+2020-10-22 11:25:59 [                          main] DefaultCamelContext            DEBUG Setting up management with factory: org.apache.camel.impl.engine.DefaultManagementStrategyFactory@48974e45
+2020-10-22 11:25:59 [                          main] DefaultCamelContext            DEBUG Adding routes from builder: Routes: []
+2020-10-22 11:25:59 [                          main] DefaultCamelContext            INFO  Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-10-22 11:25:59 [el Thread #0 - LRUCacheFactory] CaffeineLRUCacheFactory        DEBUG Warming up LRUCache ...
+2020-10-22 11:25:59 [el Thread #0 - LRUCacheFactory] CaffeineLRUCacheFactory        DEBUG Warming up LRUCache complete in 40 millis
+2020-10-22 11:25:59 [                          main] DefaultCamelContext            DEBUG Using ClassResolver=org.apache.camel.impl.engine.DefaultClassResolver@3d246ea3, PackageScanClassResolver=org.apache.camel.impl.engine.DefaultPackageScanClassResolver@341814d3, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.engine.DefaultRouteController@4397ad89
+2020-10-22 11:25:59 [                          main] DefaultManagementStrategy      INFO  JMX is disabled
+2020-10-22 11:25:59 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-base-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:25:59 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-jaxp-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:25:59 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-file-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:25:59 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-netty-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:25:59 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-support-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:25:59 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.CamelConverterLoader
+2020-10-22 11:25:59 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.CamelConverterLoader loading converters
+2020-10-22 11:25:59 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.CollectionConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.CollectionConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.DateTimeConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.DateTimeConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.DurationConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.DurationConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.IOConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.IOConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.NIOConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.NIOConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.ObjectConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.ObjectConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.SQLConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.SQLConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.TimePatternConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.TimePatternConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.impl.converter.UriTypeConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.impl.converter.UriTypeConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.DomConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.jaxp.DomConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.StaxConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.jaxp.StaxConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.StreamSourceConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.jaxp.StreamSourceConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.XmlConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.jaxp.XmlConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.util.xml.StreamSourceConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.util.xml.StreamSourceConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.component.file.GenericFileConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.component.file.GenericFileConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.component.netty.NettyConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.component.netty.NettyConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.stream.StreamCacheConverterLoader
+2020-10-22 11:26:00 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.stream.StreamCacheConverterLoader loading converters
+2020-10-22 11:26:00 [                          main] AnnotationTypeConverterLoader  DEBUG No package names found to be used for classpath scanning for annotated type converters.
+2020-10-22 11:26:00 [                          main] RestRegistryFactoryResolver    DEBUG Found RestRegistryFactory: org.apache.camel.component.rest.DefaultRestRegistryFactory via: META-INF/services/org/apache/camel/rest-registry-factory
+2020-10-22 11:26:00 [                          main] RestRegistryFactoryResolver    DEBUG Detected and using RestRegistryFactory: org.apache.camel.component.rest.DefaultRestRegistryFactory@4612b856
+2020-10-22 11:26:00 [                          main] ReactiveExecutorResolver       DEBUG Creating default ReactiveExecutor
+2020-10-22 11:26:00 [                          main] ertiesComponentFactoryResolver DEBUG Found PropertiesComponent: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/properties-component-factory
+2020-10-22 11:26:00 [                          main] ertiesComponentFactoryResolver DEBUG Detected and using PropertiesComponent: org.apache.camel.component.properties.PropertiesComponent@130dca52
+2020-10-22 11:26:00 [                          main] ResolverHelper                 DEBUG Lookup Language with name simple in registry. Found: null
+2020-10-22 11:26:00 [                          main] ResolverHelper                 DEBUG Lookup Language with name simple-language in registry. Found: null
+2020-10-22 11:26:00 [                          main] BeanProxyFactoryResolver       DEBUG Found BeanProxyFactory: org.apache.camel.component.bean.DefaultBeanProxyFactory via: META-INF/services/org/apache/camel/bean-proxy-factory
+2020-10-22 11:26:00 [                          main] BeanProxyFactoryResolver       DEBUG Detected and using BeanProxyFactory: org.apache.camel.component.bean.DefaultBeanProxyFactory@67304a40
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            DEBUG Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@7d42c224 to resolve component with name: netty
+2020-10-22 11:26:00 [                          main] ResolverHelper                 DEBUG Lookup Component with name netty in registry. Found: null
+2020-10-22 11:26:00 [                          main] ResolverHelper                 DEBUG Lookup Component with name netty-component in registry. Found: null
+2020-10-22 11:26:00 [                          main] DefaultComponentResolver       DEBUG Found component: netty via type: org.apache.camel.component.netty.NettyComponent via: META-INF/services/org/apache/camel/component/netty
+2020-10-22 11:26:00 [                          main] NettyComponent                 DEBUG Discovered component property configurer: netty -> org.apache.camel.component.netty.NettyComponentConfigurer@640f11a1
+2020-10-22 11:26:00 [                          main] NettyComponent                 DEBUG Discovered endpoint property configurer: netty -> org.apache.camel.component.netty.NettyEndpointConfigurer@52de51b6
+2020-10-22 11:26:00 [                          main] InternalLoggerFactory          DEBUG Using SLF4J as the default logging framework
+2020-10-22 11:26:00 [                          main] InternalThreadLocalMap         DEBUG -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-10-22 11:26:00 [                          main] InternalThreadLocalMap         DEBUG -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-10-22 11:26:00 [                          main] NettyComponent                 DEBUG Creating endpoint uri=[netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false], path=[tcp://localhost:4209]
+2020-10-22 11:26:00 [                          main] NettyConfiguration             DEBUG No encoders and decoders will be used
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            DEBUG netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false converted to endpoint: netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false by component: org.apache.camel.component.netty.NettyComponent@1698ee84
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            DEBUG Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@7d42c224 to resolve component with name: log
+2020-10-22 11:26:00 [                          main] ResolverHelper                 DEBUG Lookup Component with name log in registry. Found: null
+2020-10-22 11:26:00 [                          main] ResolverHelper                 DEBUG Lookup Component with name log-component in registry. Found: null
+2020-10-22 11:26:00 [                          main] DefaultComponentResolver       DEBUG Found component: log via type: org.apache.camel.component.log.LogComponent via: META-INF/services/org/apache/camel/component/log
+2020-10-22 11:26:00 [                          main] LogComponent                   DEBUG Discovered component property configurer: log -> org.apache.camel.component.log.LogComponentConfigurer@792bbc74
+2020-10-22 11:26:00 [                          main] LogComponent                   DEBUG Discovered endpoint property configurer: log -> org.apache.camel.component.log.LogEndpointConfigurer@338494fa
+2020-10-22 11:26:00 [                          main] LogComponent                   DEBUG Creating endpoint uri=[log://?level=DEBUG&showBody=true], path=[]
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            DEBUG log://?level=DEBUG&showBody=true converted to endpoint: log://?level=DEBUG&showBody=true by component: org.apache.camel.component.log.LogComponent@53812a9b
+2020-10-22 11:26:00 [                          main] DefaultChannel                 DEBUG Initialize channel for target: 'To[log:?level=DEBUG&showBody=true]'
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            INFO  StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-10-22 11:26:00 [                          main] HeadersMapFactoryResolver      DEBUG Creating default HeadersMapFactory
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            DEBUG Using HeadersMapFactory: org.apache.camel.impl.engine.DefaultHeadersMapFactory@60f7cc1d
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            DEBUG Using ReactiveExecutor: org.apache.camel.impl.engine.DefaultReactiveExecutor@11eadcba
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            DEBUG Warming up route id: route1 having autoStartup=true
+2020-10-22 11:26:00 [                          main] RouteService                   DEBUG Starting services on route: route1
+2020-10-22 11:26:00 [                          main] RouteService                   DEBUG Starting child service on route: route1 -> Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]
+2020-10-22 11:26:00 [                          main] LogProducer                    DEBUG Starting producer: Producer[log://?level=DEBUG&showBody=true]
+2020-10-22 11:26:00 [                          main] RouteService                   DEBUG Starting child service on route: route1 -> Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]
+2020-10-22 11:26:00 [                          main] RouteService                   DEBUG Starting child service on route: route1 -> sendTo(log://?level=DEBUG&showBody=true)
+2020-10-22 11:26:00 [                          main] RouteService                   DEBUG Starting child service on route: route1 -> Channel[sendTo(log://?level=DEBUG&showBody=true)]
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            DEBUG Route: route1 >>> EventDrivenConsumerRoute[netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false -> Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]]
+2020-10-22 11:26:00 [                          main] DefaultCamelContext            DEBUG Starting consumer (order: 1000) on route: route1
+2020-10-22 11:26:00 [                          main] NettyConsumer                  DEBUG Init consumer: Consumer[netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false]
+2020-10-22 11:26:00 [                          main] NettyConsumer                  DEBUG Starting consumer: Consumer[netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false]
+2020-10-22 11:26:00 [                          main] NettyConsumer                  DEBUG Netty consumer binding to: localhost:4209
+2020-10-22 11:26:00 [                          main] PlatformDependent              DEBUG Platform: Windows
+2020-10-22 11:26:00 [                          main] PlatformDependent0             DEBUG -Dio.netty.noUnsafe: false
+2020-10-22 11:26:00 [                          main] PlatformDependent0             DEBUG Java version: 8
+2020-10-22 11:26:00 [                          main] PlatformDependent0             DEBUG sun.misc.Unsafe.theUnsafe: available
+2020-10-22 11:26:00 [                          main] PlatformDependent0             DEBUG sun.misc.Unsafe.copyMemory: available
+2020-10-22 11:26:00 [                          main] PlatformDependent0             DEBUG java.nio.Buffer.address: available
+2020-10-22 11:26:00 [                          main] PlatformDependent0             DEBUG direct buffer constructor: available
+2020-10-22 11:26:00 [                          main] PlatformDependent0             DEBUG java.nio.Bits.unaligned: available, true
+2020-10-22 11:26:00 [                          main] PlatformDependent0             DEBUG jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-10-22 11:26:00 [                          main] PlatformDependent0             DEBUG java.nio.DirectByteBuffer.<init>(long, int): available
+2020-10-22 11:26:00 [                          main] PlatformDependent              DEBUG sun.misc.Unsafe: available
+2020-10-22 11:26:00 [                          main] PlatformDependent              DEBUG -Dio.netty.tmpdir: C:\Users\vdoxx\AppData\Local\Temp (java.io.tmpdir)
+2020-10-22 11:26:00 [                          main] PlatformDependent              DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-10-22 11:26:00 [                          main] PlatformDependent              DEBUG -Dio.netty.maxDirectMemory: 3799515136 bytes
+2020-10-22 11:26:00 [                          main] PlatformDependent              DEBUG -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-10-22 11:26:00 [                          main] CleanerJava6                   DEBUG java.nio.ByteBuffer.cleaner(): available
+2020-10-22 11:26:00 [                          main] PlatformDependent              DEBUG -Dio.netty.noPreferDirect: false
+2020-10-22 11:26:00 [                          main] MultithreadEventLoopGroup      DEBUG -Dio.netty.eventLoopThreads: 8
+2020-10-22 11:26:00 [                          main] NioEventLoop                   DEBUG -Dio.netty.noKeySetOptimization: false
+2020-10-22 11:26:00 [                          main] NioEventLoop                   DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-10-22 11:26:00 [                          main] PlatformDependent              DEBUG org.jctools-core.MpscChunkedArrayQueue: available
+2020-10-22 11:26:00 [                          main] TCPNettyServerBootstrapFactory DEBUG Created ServerBootstrap ServerBootstrap(ServerBootstrapConfig(group: NioEventLoopGroup, channelFactory: ReflectiveChannelFactory(NioServerSocketChannel.class), options: {SO_REUSEADDR=true}, childGroup: NioEventLoopGroup, childOptions: {CONNECT_TIMEOUT_MILLIS=10000, TCP_NODELAY=true, SO_KEEPALIVE=true, SO_REUSEADDR=true}, childHandler: org.apache.camel.component.netty.DefaultServerInitializerFactory@41fe9859))
+2020-10-22 11:26:00 [                          main] TCPNettyServerBootstrapFactory INFO  ServerBootstrap binding to localhost:4209
+2020-10-22 11:26:00 [                          main] DefaultChannelId               DEBUG -Dio.netty.processId: 11904 (auto-detected)
+2020-10-22 11:26:00 [                          main] NetUtil                        DEBUG -Djava.net.preferIPv4Stack: false
+2020-10-22 11:26:00 [                          main] NetUtil                        DEBUG -Djava.net.preferIPv6Addresses: false
+2020-10-22 11:26:00 [                          main] NetUtil                        DEBUG Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-10-22 11:26:00 [                          main] NetUtil                        DEBUG Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-10-22 11:26:01 [                          main] DefaultChannelId               DEBUG -Dio.netty.machineId: b0:52:16:ff:fe:ba:4f:25 (auto-detected)
+2020-10-22 11:26:01 [                          main] ResourceLeakDetector           DEBUG -Dio.netty.leakDetection.level: simple
+2020-10-22 11:26:01 [                          main] ResourceLeakDetector           DEBUG -Dio.netty.leakDetection.targetRecords: 4
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.numHeapArenas: 8
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.numDirectArenas: 8
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.pageSize: 8192
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.maxOrder: 11
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.chunkSize: 16777216
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.tinyCacheSize: 512
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.smallCacheSize: 256
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.normalCacheSize: 64
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.useCacheForAllThreads: true
+2020-10-22 11:26:01 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-10-22 11:26:01 [                          main] ByteBufUtil                    DEBUG -Dio.netty.allocator.type: pooled
+2020-10-22 11:26:01 [                          main] ByteBufUtil                    DEBUG -Dio.netty.threadLocalDirectBufferSize: 0
+2020-10-22 11:26:01 [                          main] ByteBufUtil                    DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-10-22 11:26:01 [                          main] NettyConsumer                  INFO  Netty consumer bound to: localhost:4209
+2020-10-22 11:26:01 [                          main] DefaultCamelContext            INFO  Route: route1 started and consuming from: netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false
+2020-10-22 11:26:01 [                          main] DefaultCamelContext            INFO  Total 1 routes, of which 1 are started
+2020-10-22 11:26:01 [                          main] DefaultCamelContext            INFO  Apache Camel 3.0.0 (CamelContext: camel-1) started in 1.474 seconds
+2020-10-22 11:52:19 [read #2 - NettyServerTCPWorker] Recycler                       DEBUG -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-10-22 11:52:19 [read #2 - NettyServerTCPWorker] Recycler                       DEBUG -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-10-22 11:52:19 [read #2 - NettyServerTCPWorker] Recycler                       DEBUG -Dio.netty.recycler.linkCapacity: 16
+2020-10-22 11:52:19 [read #2 - NettyServerTCPWorker] Recycler                       DEBUG -Dio.netty.recycler.ratio: 8
+2020-10-22 11:52:19 [read #2 - NettyServerTCPWorker] AbstractByteBuf                DEBUG -Dio.netty.buffer.checkAccessible: true
+2020-10-22 11:52:19 [read #2 - NettyServerTCPWorker] AbstractByteBuf                DEBUG -Dio.netty.buffer.checkBounds: true
+2020-10-22 11:52:19 [read #2 - NettyServerTCPWorker] ResourceLeakDetectorFactory    DEBUG Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@434af0d7
+2020-10-22 11:52:19 [d #3 - NettyEventExecutorGroup] NettyConsumer                  DEBUG Channel: [id: 0x32e14454, L:/127.0.0.1:4209 - R:/127.0.0.1:1124] received body: PooledUnsafeDirectByteBuf(ridx: 0, widx: 25, cap: 1024)
+2020-10-22 11:52:20 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603347739996-0-1,DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)]]
+2020-10-22 11:52:20 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)] - ID-rupesh-1603347739996-0-1
+2020-10-22 11:52:20 [d #3 - NettyEventExecutorGroup] SendProcessor                  DEBUG >>>> log://?level=DEBUG&showBody=true Exchange[ID-rupesh-1603347739996-0-1]
+2020-10-22 11:52:20 [d #3 - NettyEventExecutorGroup]                                DEBUG Exchange[ExchangePattern: InOnly, BodyType: io.netty.buffer.PooledUnsafeDirectByteBuf, Body: 
+
+ *** Hello Camel *** 
+
+]
+2020-10-22 11:52:20 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/788049067@2c8d4eaa]
+2020-10-22 11:52:20 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$502/1948859187@5f82919b]
+2020-10-22 11:52:20 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603347739996-0-1,Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]]
+2020-10-22 11:52:20 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/788049067@600a175e]
+2020-10-22 11:52:20 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.component.netty.handlers.ServerChannelHandler$1@3c499024]
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup] NettyConsumer                  DEBUG Channel: [id: 0x3e488357, L:/127.0.0.1:4209 - R:/127.0.0.1:1144] received body: PooledUnsafeDirectByteBuf(ridx: 0, widx: 25, cap: 1024)
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603347739996-0-2,DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)]]
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)] - ID-rupesh-1603347739996-0-2
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup] SendProcessor                  DEBUG >>>> log://?level=DEBUG&showBody=true Exchange[ID-rupesh-1603347739996-0-2]
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup]                                DEBUG Exchange[ExchangePattern: InOnly, BodyType: io.netty.buffer.PooledUnsafeDirectByteBuf, Body: 
+
+ *** Hello Camel *** 
+
+]
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/788049067@480faa1]
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$502/1948859187@a470441]
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603347739996-0-2,Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]]
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/788049067@e7891d1]
+2020-10-22 11:53:58 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.component.netty.handlers.ServerChannelHandler$1@4b7a0e7a]
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup] NettyConsumer                  DEBUG Channel: [id: 0x3ea5f262, L:/127.0.0.1:4209 - R:/127.0.0.1:1148] received body: PooledUnsafeDirectByteBuf(ridx: 0, widx: 25, cap: 1024)
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603347739996-0-3,DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)]]
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)] - ID-rupesh-1603347739996-0-3
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup] SendProcessor                  DEBUG >>>> log://?level=DEBUG&showBody=true Exchange[ID-rupesh-1603347739996-0-3]
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup]                                DEBUG Exchange[ExchangePattern: InOnly, BodyType: io.netty.buffer.PooledUnsafeDirectByteBuf, Body: 
+
+ *** Hello Camel *** 
+
+]
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/788049067@7cd93008]
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$502/1948859187@721ed1e3]
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603347739996-0-3,Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]]
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/788049067@76215b78]
+2020-10-22 11:55:13 [d #7 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.component.netty.handlers.ServerChannelHandler$1@3323dbd8]
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup] NettyConsumer                  DEBUG Channel: [id: 0x9dc7501e, L:/127.0.0.1:4209 - R:/127.0.0.1:1150] received body: PooledUnsafeDirectByteBuf(ridx: 0, widx: 25, cap: 1024)
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603347739996-0-4,DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)]]
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)] - ID-rupesh-1603347739996-0-4
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup] SendProcessor                  DEBUG >>>> log://?level=DEBUG&showBody=true Exchange[ID-rupesh-1603347739996-0-4]
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup]                                DEBUG Exchange[ExchangePattern: InOnly, BodyType: io.netty.buffer.PooledUnsafeDirectByteBuf, Body: 
+
+ *** Hello Camel *** 
+
+]
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/788049067@117ad326]
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$502/1948859187@1fbd3f79]
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603347739996-0-4,Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]]
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/788049067@1b82b856]
+2020-10-22 11:55:30 [d #9 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.component.netty.handlers.ServerChannelHandler$1@5e803542]
+2020-10-22 11:57:49 [                          main] DefaultCamelContext            DEBUG Setting up management with factory: org.apache.camel.impl.engine.DefaultManagementStrategyFactory@48974e45
+2020-10-22 11:57:49 [                          main] DefaultCamelContext            DEBUG Adding routes from builder: Routes: []
+2020-10-22 11:57:49 [                          main] DefaultCamelContext            INFO  Apache Camel 3.0.0 (CamelContext: camel-1) is starting
+2020-10-22 11:57:49 [el Thread #0 - LRUCacheFactory] CaffeineLRUCacheFactory        DEBUG Warming up LRUCache ...
+2020-10-22 11:57:49 [el Thread #0 - LRUCacheFactory] CaffeineLRUCacheFactory        DEBUG Warming up LRUCache complete in 38 millis
+2020-10-22 11:57:49 [                          main] DefaultCamelContext            DEBUG Using ClassResolver=org.apache.camel.impl.engine.DefaultClassResolver@4f6f416f, PackageScanClassResolver=org.apache.camel.impl.engine.DefaultPackageScanClassResolver@3b8f0a79, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.engine.DefaultRouteController@71e693fa
+2020-10-22 11:57:49 [                          main] DefaultManagementStrategy      INFO  JMX is disabled
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-base-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-jaxp-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-file-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-netty-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/E:/Customer-large-file-size/camel-socket/release/lib/camel-support-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.CamelConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.CamelConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.CollectionConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.CollectionConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.DateTimeConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.DateTimeConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.DurationConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.DurationConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.IOConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.IOConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.NIOConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.NIOConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.ObjectConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.ObjectConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.SQLConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.SQLConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.TimePatternConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.TimePatternConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.impl.converter.UriTypeConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.impl.converter.UriTypeConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.DomConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.jaxp.DomConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.StaxConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.jaxp.StaxConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.StreamSourceConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.jaxp.StreamSourceConverterLoader loading converters
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.XmlConverterLoader
+2020-10-22 11:57:49 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.jaxp.XmlConverterLoader loading converters
+2020-10-22 11:57:50 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.util.xml.StreamSourceConverterLoader
+2020-10-22 11:57:50 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.util.xml.StreamSourceConverterLoader loading converters
+2020-10-22 11:57:50 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.component.file.GenericFileConverterLoader
+2020-10-22 11:57:50 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.component.file.GenericFileConverterLoader loading converters
+2020-10-22 11:57:50 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.component.netty.NettyConverterLoader
+2020-10-22 11:57:50 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.component.netty.NettyConverterLoader loading converters
+2020-10-22 11:57:50 [                          main] DefaultTypeConverter           DEBUG Resolving TypeConverterLoader: org.apache.camel.converter.stream.StreamCacheConverterLoader
+2020-10-22 11:57:50 [                          main] DefaultTypeConverter           DEBUG TypeConverterLoader: org.apache.camel.converter.stream.StreamCacheConverterLoader loading converters
+2020-10-22 11:57:50 [                          main] AnnotationTypeConverterLoader  DEBUG No package names found to be used for classpath scanning for annotated type converters.
+2020-10-22 11:57:50 [                          main] RestRegistryFactoryResolver    DEBUG Found RestRegistryFactory: org.apache.camel.component.rest.DefaultRestRegistryFactory via: META-INF/services/org/apache/camel/rest-registry-factory
+2020-10-22 11:57:50 [                          main] RestRegistryFactoryResolver    DEBUG Detected and using RestRegistryFactory: org.apache.camel.component.rest.DefaultRestRegistryFactory@22d7b4f8
+2020-10-22 11:57:50 [                          main] ReactiveExecutorResolver       DEBUG Creating default ReactiveExecutor
+2020-10-22 11:57:50 [                          main] ertiesComponentFactoryResolver DEBUG Found PropertiesComponent: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/properties-component-factory
+2020-10-22 11:57:50 [                          main] ertiesComponentFactoryResolver DEBUG Detected and using PropertiesComponent: org.apache.camel.component.properties.PropertiesComponent@79c7532f
+2020-10-22 11:57:50 [                          main] ResolverHelper                 DEBUG Lookup Language with name simple in registry. Found: null
+2020-10-22 11:57:50 [                          main] ResolverHelper                 DEBUG Lookup Language with name simple-language in registry. Found: null
+2020-10-22 11:57:50 [                          main] BeanProxyFactoryResolver       DEBUG Found BeanProxyFactory: org.apache.camel.component.bean.DefaultBeanProxyFactory via: META-INF/services/org/apache/camel/bean-proxy-factory
+2020-10-22 11:57:50 [                          main] BeanProxyFactoryResolver       DEBUG Detected and using BeanProxyFactory: org.apache.camel.component.bean.DefaultBeanProxyFactory@2654635
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            DEBUG Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@ccb4b1b to resolve component with name: netty
+2020-10-22 11:57:50 [                          main] ResolverHelper                 DEBUG Lookup Component with name netty in registry. Found: null
+2020-10-22 11:57:50 [                          main] ResolverHelper                 DEBUG Lookup Component with name netty-component in registry. Found: null
+2020-10-22 11:57:50 [                          main] DefaultComponentResolver       DEBUG Found component: netty via type: org.apache.camel.component.netty.NettyComponent via: META-INF/services/org/apache/camel/component/netty
+2020-10-22 11:57:50 [                          main] NettyComponent                 DEBUG Discovered component property configurer: netty -> org.apache.camel.component.netty.NettyComponentConfigurer@3bd418e4
+2020-10-22 11:57:50 [                          main] NettyComponent                 DEBUG Discovered endpoint property configurer: netty -> org.apache.camel.component.netty.NettyEndpointConfigurer@e84a8e1
+2020-10-22 11:57:50 [                          main] InternalLoggerFactory          DEBUG Using SLF4J as the default logging framework
+2020-10-22 11:57:50 [                          main] InternalThreadLocalMap         DEBUG -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-10-22 11:57:50 [                          main] InternalThreadLocalMap         DEBUG -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-10-22 11:57:50 [                          main] NettyComponent                 DEBUG Creating endpoint uri=[netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false], path=[tcp://localhost:4209]
+2020-10-22 11:57:50 [                          main] NettyConfiguration             DEBUG No encoders and decoders will be used
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            DEBUG netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false converted to endpoint: netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false by component: org.apache.camel.component.netty.NettyComponent@3382f8ae
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            DEBUG Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@ccb4b1b to resolve component with name: log
+2020-10-22 11:57:50 [                          main] ResolverHelper                 DEBUG Lookup Component with name log in registry. Found: null
+2020-10-22 11:57:50 [                          main] ResolverHelper                 DEBUG Lookup Component with name log-component in registry. Found: null
+2020-10-22 11:57:50 [                          main] DefaultComponentResolver       DEBUG Found component: log via type: org.apache.camel.component.log.LogComponent via: META-INF/services/org/apache/camel/component/log
+2020-10-22 11:57:50 [                          main] LogComponent                   DEBUG Discovered component property configurer: log -> org.apache.camel.component.log.LogComponentConfigurer@58c34bb3
+2020-10-22 11:57:50 [                          main] LogComponent                   DEBUG Discovered endpoint property configurer: log -> org.apache.camel.component.log.LogEndpointConfigurer@1698fc68
+2020-10-22 11:57:50 [                          main] LogComponent                   DEBUG Creating endpoint uri=[log://?level=DEBUG&showBody=true], path=[]
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            DEBUG log://?level=DEBUG&showBody=true converted to endpoint: log://?level=DEBUG&showBody=true by component: org.apache.camel.component.log.LogComponent@788fcafb
+2020-10-22 11:57:50 [                          main] DefaultChannel                 DEBUG Initialize channel for target: 'To[log:?level=DEBUG&showBody=true]'
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            INFO  StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-10-22 11:57:50 [                          main] HeadersMapFactoryResolver      DEBUG Creating default HeadersMapFactory
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            DEBUG Using HeadersMapFactory: org.apache.camel.impl.engine.DefaultHeadersMapFactory@556d0826
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            DEBUG Using ReactiveExecutor: org.apache.camel.impl.engine.DefaultReactiveExecutor@66ce957f
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            DEBUG Warming up route id: route1 having autoStartup=true
+2020-10-22 11:57:50 [                          main] RouteService                   DEBUG Starting services on route: route1
+2020-10-22 11:57:50 [                          main] RouteService                   DEBUG Starting child service on route: route1 -> Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]
+2020-10-22 11:57:50 [                          main] LogProducer                    DEBUG Starting producer: Producer[log://?level=DEBUG&showBody=true]
+2020-10-22 11:57:50 [                          main] RouteService                   DEBUG Starting child service on route: route1 -> Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]
+2020-10-22 11:57:50 [                          main] RouteService                   DEBUG Starting child service on route: route1 -> sendTo(log://?level=DEBUG&showBody=true)
+2020-10-22 11:57:50 [                          main] RouteService                   DEBUG Starting child service on route: route1 -> Channel[sendTo(log://?level=DEBUG&showBody=true)]
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            DEBUG Route: route1 >>> EventDrivenConsumerRoute[netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false -> Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]]
+2020-10-22 11:57:50 [                          main] DefaultCamelContext            DEBUG Starting consumer (order: 1000) on route: route1
+2020-10-22 11:57:50 [                          main] NettyConsumer                  DEBUG Init consumer: Consumer[netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false]
+2020-10-22 11:57:50 [                          main] NettyConsumer                  DEBUG Starting consumer: Consumer[netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false]
+2020-10-22 11:57:50 [                          main] NettyConsumer                  DEBUG Netty consumer binding to: localhost:4209
+2020-10-22 11:57:50 [                          main] PlatformDependent              DEBUG Platform: Windows
+2020-10-22 11:57:50 [                          main] PlatformDependent0             DEBUG -Dio.netty.noUnsafe: false
+2020-10-22 11:57:50 [                          main] PlatformDependent0             DEBUG Java version: 8
+2020-10-22 11:57:50 [                          main] PlatformDependent0             DEBUG sun.misc.Unsafe.theUnsafe: available
+2020-10-22 11:57:50 [                          main] PlatformDependent0             DEBUG sun.misc.Unsafe.copyMemory: available
+2020-10-22 11:57:50 [                          main] PlatformDependent0             DEBUG java.nio.Buffer.address: available
+2020-10-22 11:57:50 [                          main] PlatformDependent0             DEBUG direct buffer constructor: available
+2020-10-22 11:57:50 [                          main] PlatformDependent0             DEBUG java.nio.Bits.unaligned: available, true
+2020-10-22 11:57:50 [                          main] PlatformDependent0             DEBUG jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-10-22 11:57:50 [                          main] PlatformDependent0             DEBUG java.nio.DirectByteBuffer.<init>(long, int): available
+2020-10-22 11:57:50 [                          main] PlatformDependent              DEBUG sun.misc.Unsafe: available
+2020-10-22 11:57:50 [                          main] PlatformDependent              DEBUG -Dio.netty.tmpdir: C:\Users\vdoxx\AppData\Local\Temp (java.io.tmpdir)
+2020-10-22 11:57:50 [                          main] PlatformDependent              DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-10-22 11:57:50 [                          main] PlatformDependent              DEBUG -Dio.netty.maxDirectMemory: 3799515136 bytes
+2020-10-22 11:57:50 [                          main] PlatformDependent              DEBUG -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-10-22 11:57:50 [                          main] CleanerJava6                   DEBUG java.nio.ByteBuffer.cleaner(): available
+2020-10-22 11:57:50 [                          main] PlatformDependent              DEBUG -Dio.netty.noPreferDirect: false
+2020-10-22 11:57:50 [                          main] MultithreadEventLoopGroup      DEBUG -Dio.netty.eventLoopThreads: 8
+2020-10-22 11:57:50 [                          main] NioEventLoop                   DEBUG -Dio.netty.noKeySetOptimization: false
+2020-10-22 11:57:50 [                          main] NioEventLoop                   DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-10-22 11:57:50 [                          main] PlatformDependent              DEBUG org.jctools-core.MpscChunkedArrayQueue: available
+2020-10-22 11:57:50 [                          main] TCPNettyServerBootstrapFactory DEBUG Created ServerBootstrap ServerBootstrap(ServerBootstrapConfig(group: NioEventLoopGroup, channelFactory: ReflectiveChannelFactory(NioServerSocketChannel.class), options: {SO_REUSEADDR=true}, childGroup: NioEventLoopGroup, childOptions: {SO_KEEPALIVE=true, TCP_NODELAY=true, SO_REUSEADDR=true, CONNECT_TIMEOUT_MILLIS=10000}, childHandler: org.apache.camel.component.netty.DefaultServerInitializerFactory@119f1f2a))
+2020-10-22 11:57:50 [                          main] TCPNettyServerBootstrapFactory INFO  ServerBootstrap binding to localhost:4209
+2020-10-22 11:57:50 [                          main] DefaultChannelId               DEBUG -Dio.netty.processId: 19368 (auto-detected)
+2020-10-22 11:57:50 [                          main] NetUtil                        DEBUG -Djava.net.preferIPv4Stack: false
+2020-10-22 11:57:50 [                          main] NetUtil                        DEBUG -Djava.net.preferIPv6Addresses: false
+2020-10-22 11:57:50 [                          main] NetUtil                        DEBUG Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-10-22 11:57:51 [                          main] NetUtil                        DEBUG Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-10-22 11:57:51 [                          main] DefaultChannelId               DEBUG -Dio.netty.machineId: b0:52:16:ff:fe:ba:4f:25 (auto-detected)
+2020-10-22 11:57:51 [                          main] ResourceLeakDetector           DEBUG -Dio.netty.leakDetection.level: simple
+2020-10-22 11:57:51 [                          main] ResourceLeakDetector           DEBUG -Dio.netty.leakDetection.targetRecords: 4
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.numHeapArenas: 8
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.numDirectArenas: 8
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.pageSize: 8192
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.maxOrder: 11
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.chunkSize: 16777216
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.tinyCacheSize: 512
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.smallCacheSize: 256
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.normalCacheSize: 64
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.useCacheForAllThreads: true
+2020-10-22 11:57:51 [                          main] PooledByteBufAllocator         DEBUG -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-10-22 11:57:51 [                          main] ByteBufUtil                    DEBUG -Dio.netty.allocator.type: pooled
+2020-10-22 11:57:51 [                          main] ByteBufUtil                    DEBUG -Dio.netty.threadLocalDirectBufferSize: 0
+2020-10-22 11:57:51 [                          main] ByteBufUtil                    DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-10-22 11:57:51 [                          main] NettyConsumer                  INFO  Netty consumer bound to: localhost:4209
+2020-10-22 11:57:51 [                          main] DefaultCamelContext            INFO  Route: route1 started and consuming from: netty://tcp://localhost:4209?allowDefaultCodec=false&sync=false
+2020-10-22 11:57:51 [                          main] DefaultCamelContext            INFO  Total 1 routes, of which 1 are started
+2020-10-22 11:57:51 [                          main] DefaultCamelContext            INFO  Apache Camel 3.0.0 (CamelContext: camel-1) started in 1.844 seconds
+2020-10-22 11:57:59 [read #2 - NettyServerTCPWorker] Recycler                       DEBUG -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-10-22 11:57:59 [read #2 - NettyServerTCPWorker] Recycler                       DEBUG -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-10-22 11:57:59 [read #2 - NettyServerTCPWorker] Recycler                       DEBUG -Dio.netty.recycler.linkCapacity: 16
+2020-10-22 11:57:59 [read #2 - NettyServerTCPWorker] Recycler                       DEBUG -Dio.netty.recycler.ratio: 8
+2020-10-22 11:57:59 [read #2 - NettyServerTCPWorker] AbstractByteBuf                DEBUG -Dio.netty.buffer.checkAccessible: true
+2020-10-22 11:57:59 [read #2 - NettyServerTCPWorker] AbstractByteBuf                DEBUG -Dio.netty.buffer.checkBounds: true
+2020-10-22 11:57:59 [read #2 - NettyServerTCPWorker] ResourceLeakDetectorFactory    DEBUG Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7761e3f0
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup] NettyConsumer                  DEBUG Channel: [id: 0x0b7e9c39, L:/127.0.0.1:4209 - R:/127.0.0.1:1169] received body: PooledUnsafeDirectByteBuf(ridx: 0, widx: 25, cap: 1024)
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603348079441-0-1,DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)]]
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)] - ID-rupesh-1603348079441-0-1
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup] SendProcessor                  DEBUG >>>> log://?level=DEBUG&showBody=true Exchange[ID-rupesh-1603348079441-0-1]
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup]                                DEBUG Exchange[ExchangePattern: InOnly, BodyType: io.netty.buffer.PooledUnsafeDirectByteBuf, Body: 
+
+ *** Hello Camel *** 
+
+]
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/465289946@2f643ac3]
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$502/1351430003@52443ba9]
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603348079441-0-1,Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]]
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/465289946@79c45780]
+2020-10-22 11:57:59 [d #3 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.component.netty.handlers.ServerChannelHandler$1@73015c79]
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup] NettyConsumer                  DEBUG Channel: [id: 0x1323167f, L:/127.0.0.1:4209 - R:/127.0.0.1:1170] received body: PooledUnsafeDirectByteBuf(ridx: 0, widx: 25, cap: 1024)
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603348079441-0-2,DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)]]
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=DEBUG&showBody=true)] - ID-rupesh-1603348079441-0-2
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup] SendProcessor                  DEBUG >>>> log://?level=DEBUG&showBody=true Exchange[ID-rupesh-1603348079441-0-2]
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup]                                DEBUG Exchange[ExchangePattern: InOnly, BodyType: io.netty.buffer.PooledUnsafeDirectByteBuf, Body: 
+
+ *** Hello Camel *** 
+
+]
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/465289946@53c5aa7c]
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$502/1351430003@5d025e74]
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Step[ID-rupesh-1603348079441-0-2,Pipeline[[Channel[sendTo(log://?level=DEBUG&showBody=true)]]]]
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$500/465289946@593dc10c]
+2020-10-22 11:58:14 [d #5 - NettyEventExecutorGroup] DefaultReactiveExecutor        DEBUG Queuing reactive work: Callback[org.apache.camel.component.netty.handlers.ServerChannelHandler$1@1c3f544f]

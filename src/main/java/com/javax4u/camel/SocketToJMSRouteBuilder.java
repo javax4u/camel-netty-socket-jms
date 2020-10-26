@@ -6,7 +6,7 @@ import org.apache.camel.Predicate;
 import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
 
-public class SocketRouteBuilder extends RouteBuilder {
+public class SocketToJMSRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() {
@@ -24,39 +24,6 @@ public class SocketRouteBuilder extends RouteBuilder {
                 .to("jms:queue:VdoxxQueue");
         // .to("http://localhost/html5/vdoxx/rfidscan/consumeRFIDScan.htm?mode=11").process(new MyProcessor());
 
-    }
-
-    /**
-     * Working ground_0
-     */
-    public void configure1() {
-        MyPredicate myPredicate = new MyPredicate();
-        from("netty:tcp://localhost:4209?textline=true&sync=false")
-                .to("log:?level=DEBUG&showBody=true").process(new MyProcessor());
-
-    }
-
-    public void configure2() {
-        MyPredicate myPredicate = new MyPredicate();
-        from("netty:tcp://localhost:4209?textline=true&sync=false")
-                .process(new Processor() {
-                    public void process(Exchange exchange) throws Exception {
-                        String body = exchange.getIn().getBody(String.class);
-                        System.out.println("body:" + body);
-                        exchange.getOut().setBody("Bye " + body);
-                        // some condition which determines if we should close
-
-                    }
-                })
-                .to("log:?level=DEBUG&showBody=true");
-
-//          from("netty:tcp://localhost:4209?textline=true&sync=false")
-//                .choice()
-//                .when(body().contains("Hello, world!")).to("log:?level=DEBUG&showBody=true")
-//                .when(body().contains("Hello, world!")).to("log:?level=DEBUG&showBody=true")
-//                .otherwise()
-//                .to("log:?level=INFO&showBody=true")
-//                .end();
     }
 
 }

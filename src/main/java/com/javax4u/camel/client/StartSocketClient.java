@@ -14,7 +14,7 @@ public class StartSocketClient {
             JndiContext jndiRegistry = new JndiContext();
             CamelContext camelContext = new DefaultCamelContext(jndiRegistry);
 
-            camelContext.addRoutes(new TimerRoute());
+            camelContext.addRoutes(new TimerToSocketRouteBuilder());
             camelContext.start();
             int counter = 1;
             while (counter <= 6) {
